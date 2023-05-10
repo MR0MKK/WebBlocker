@@ -1,13 +1,13 @@
 from tkinter import *
 import time
-
+#run as administrator
 space=""
 root = Tk()
 root.geometry('500x300')
 root.resizable(0,0)
-root.title("MinhKingKong")
+root.title("Website Blocker")
 Label(root, text = 'Chặn Website' , font = 'Algerian 22 bold').pack()
-Label(root,text = 'Nhóm XXX' , font = 'Algerian 20 bold').pack(side = BOTTOM)
+Label(root,text = 'Nhóm 5' , font = 'Algerian 20 bold').pack(side = BOTTOM)
 
 host_path = 'C:\Windows\System32\drivers\etc\hosts'
 ip_address = '127.0.0.1'
